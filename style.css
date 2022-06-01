@@ -171,3 +171,292 @@
     margin-bottom: 30px;
     text-align: end;
   }
+  .about .content{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  
+  
+  .about .content .content-title{
+    color: #8B634B;
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    font-weight: 1200px;
+    margin-bottom: 20px;
+  }
+  
+  .about .content .intro-text{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25em;
+    font-weight: 800px;
+    color: rgb(242,233,234);
+    margin-right: 500px;
+  }
+  
+  .text {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25em;
+    color: rgb(242,233,234);
+  }
+  
+  .experience{
+    background: url(./img/hat.JPG) no-repeat center;
+    background-size: cover ;
+  }
+  
+  .experience .content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .experience .content .col-left{
+    position: relative;
+    width: 46%;
+  }
+  
+  .experience .content .col-left .content-title{
+    margin-bottom: 20px;
+  }
+  
+  .experience .content .col-right{
+    position: relative;
+    width: 46%;
+  }
+  
+  .experience .content .col-right .bar{
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  
+  .experience .content .col-right .bar .info{
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .experience .content .col-right .bar .info span{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .experience .content .col-right .bar .line{
+    position: relative;
+    width: 100%;
+    height: 15px;
+    background: #ccc;
+    border-radius: 2px;
+  }
+  
+  .experience .content .col-right .bar .line:before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+  }
+  
+  .experience .content .col-right .bar .conv:before{
+    width: 100%;
+    background:#4b0435;
+  }
+  
+  .experience .content .col-right .bar .fluent:before{
+    width: 100%;
+    background: #f5b848;
+  }
+  
+  .experience .content .col-right .bar .template:before{
+    width: 90%;
+    background: #24b3e3;
+  }
+  
+  .experience .content .col-right .bar .automation:before{
+    width: 60%;
+    background: #635f0d;
+  }
+  
+  .experience .content .col-right .bar .framework:before{
+    width: 40%;
+    background: #a83232;
+  }
+  
+  .services .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+  .title p{
+    font-size: 1em;
+    width: 80%;
+  }
+  
+  
+  
+  .projects{
+    background:#5F259F;
+  }
+  
+  .projects .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .projects .content .card{
+    width: 340px;
+    margin: 15px;
+  }
+  
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-columns: max-content; 
+    grid-gap: 20px;
+  }
+  
+  
+  
+  .card-img {
+    padding: 10px;
+    background-size: 100% auto;
+    background-origin: bottom right;
+    border: 1.5px solid grey;
+    background: white;
+    opacity: 75%;
+  
+  }
+  
+  
+  .card-img img{
+    border-radius: 10px;
+    border: 2px solid grey;
+  }
+  
+  
+  
+  .card-img img{
+    object-fit: cover;
+    width:100%;
+    overflow: hidden;
+  }
+  
+  
+  
+  .card-img h3 {
+    color:white;
+    text-align: center;
+    background: #8B634F;
+  }
+  
+  .card-img p{
+    font-family: "Playfair Display", serif;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .card-img .source-text p{
+    color: white;
+  }
+  
+  .description{
+    font-family: "Playfair Display", serif;
+    font-size: 0.2em;
+  }
+  
+  .contact{
+    background: url(./img/lookaway.JPG);
+    background-size: cover;
+  }
+  .contact .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .contact .content .row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .contact .content .row .card{
+    background: #fff;
+    width: 340px;
+    margin: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+  }
+  
+  .contact .content .row .card .contact-icon{
+    color: #3a6cf4;
+    font-size: 4em;
+    text-align: center;
+    transition: transform 0.5s ease;
+  }
+  
+  .contact .content .row .card:hover .contact-icon{
+    transform: translateY(-10px);
+  }
+  
+  .contact .content .row .card .info{
+    text-align: center;
+  }
+  
+  .contact .content .row .card .info h3{
+    color: #111;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+  }
+  
+  .contact .content .row .card .info span{
+    color: #666;
+    font-weight: 500;
+  }
+  
+  
+  .footer{
+    background: #000016;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+  }
+  
+  .footer .footer-title{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .footer p{
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .footer p a{
+    color: #3a6cf4;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
